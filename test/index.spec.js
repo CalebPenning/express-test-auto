@@ -24,3 +24,7 @@ describe("GET /", () => {
             })
     })
 })
+
+after(() => {
+    process.exit(0)
+})
